@@ -426,7 +426,7 @@ margin-right: 7px;
 }
     
     .portfolio .button-group{
-        margin-top: 50px;
+        margin-top: 30px;
     }
       .button-group {
         text-align: left;
@@ -823,7 +823,6 @@ box-shadow: 0 0 0 0;
     .blog-thumb2 img {
     width: auto;
     max-width: inherit !important;
-    height: auto !important;
 }
     .testimonial-active .slick-arrow,.home-blog-active .slick-arrow, .home-blog-active2 .slick-arrow{
         display: none!important;
@@ -1243,7 +1242,7 @@ display: inline-block;
     .button-group button {
     margin: 0 4px;
     flex: 0 0 55%;
-        font-size: 15px;
+    font-size: 15px;
 }
     .portfolio .col4 .grid-item {
     width: 100%;
@@ -2161,3 +2160,26 @@ margin-top: 0;
 }
 
 }
+
+@media only screen and (max-width: 1180px) {
+    .footer-top .col-xl-3:last-child {
+        padding-left: 60px;   
+    }
+
+    .second-services-content {
+        padding: 20px 10px;
+    }
+
+
+    .button-group button {
+        padding: 8px 20px !important;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .footer-top .col-xl-3:last-child {
+        padding-left: 15px;   
+    }
+
+
+  }
